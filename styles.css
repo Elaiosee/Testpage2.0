@@ -2,36 +2,20 @@ body {
   padding: 100px;
 }
 
-<<<<<<< HEAD
-@mixin rangeThumb {
-=======
-@mixin range{
->>>>>>> parent of a8685a1... Update styles.css
+ range{
   width: 18px;
   height: 18px;
   margin: -8px 0  0;
   border-radius: 50%;
   background: #37adbf;
-<<<<<<< HEAD
-  cursor: pointer;
+cursor: pointer;
   border: 0 !important;
 }
 
-@mixin rangeTrack {
+range {
   width: 100%;
   height: 2px;
-  cursor: pointer;
-=======
-
-  border: 0 !important;
-}
-
-@mixin range {
-  width: 100%;
-  height: 2px;
-
-  
->>>>>>> parent of a8685a1... Update styles.css
+cursor: pointer;
   background: #b2b2b2;
 }
 
@@ -47,7 +31,7 @@ body {
   top: 2px;
   height: 0;
   -webkit-appearance: none;
-
+}
   // Thumb
   &::-webkit-slider-thumb {
     -webkit-appearance: none; // needed again for Chrome & Safari
@@ -87,14 +71,13 @@ body {
     border-color: transparent;
     color: transparent;
   }
-}
 
 // Labels below slider
 .range-labels {
   margin: 18px -41px 0;
   padding: 0;
   list-style: none;
-
+}
   li {
     position: relative;
     float: left;
@@ -103,7 +86,7 @@ body {
     color: #b2b2b2;
     font-size: 14px;
     cursor: pointer;
-
+}
     &::before {
       position: absolute;
       top: -25px;
@@ -116,7 +99,7 @@ body {
       background: #b2b2b2;
       border-radius: 50%;
     }
-  }
+
 
   .active {
     color: #37adbf;
@@ -129,4 +112,3 @@ body {
   .active.selected::before {
     display: none;
   }
-}
