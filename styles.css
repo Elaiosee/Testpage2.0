@@ -1,3 +1,10 @@
-.Low {background-color: #4CAF50;} /* Green */
-.Medium {background-color: #008CBA;} /* Blue */
-.High {background-color: #f44336;} /* Red */
+.Low{
+  background-color: '#d4af37';
+}
+
+.Medium{
+  background-color: '#d4af37';
+}
+
+.High{
+  background-color: '#d4af37';
